@@ -43,7 +43,7 @@ public static class ConsoleLogger {
 
         // 呼び出し元のファイルと行番号を付ける
         // Append source file and line number to the log message
-        string message = $" {value} \n [{Path.GetFileName(filePath)}:{lineNumber} ({memberName})]";
+        string message = $"{value} \n [{Path.GetFileName(filePath)}:{lineNumber} ({memberName})]";
 
         // ログ表示
         // Display the log message
